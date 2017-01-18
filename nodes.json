@@ -1,50 +1,5 @@
 {
   "nodes": {
-      "gitlab.example.com": {
-      ":ip": "192.168.32.50",
-      "ports": [],
-      ":memory": 2048
-    },
-     "puppetclient.example.com": {
-      ":ip": "192.168.32.40",
-      "ports": [],
-      ":memory": 1024
-    },
-    "puppet.example.com": {
-      ":ip": "192.168.32.5",
-      "ports": [],
-      ":memory": 1024
-    },
-    "node01.example.com": {
-      ":ip": "192.168.32.10",
-      "ports": [],
-      ":memory": 1024
-    },
-    "node02.example.com": {
-      ":ip": "192.168.32.20",
-      "ports": [],
-      ":memory": 2048
-    },
-   "puppetpe.example.com": {
-      ":ip": "192.168.32.30",
-      "ports": [],
-      ":memory": 4608
-    },
-   "chefserver.example.com": {
-      ":ip": "192.168.32.60",
-      "ports": [],
-      ":memory": 2608
-    },
-    "chefclient.example.com": {
-      ":ip": "192.168.32.80",
-      "ports": [],
-      ":memory": 1024
-    },
-    "chefws.example.com": {
-      ":ip": "192.168.32.70",
-      "ports": [],
-      ":memory": 1024
-    },
     "ansiserver.example.com": {
       ":ip": "192.168.32.90",
       "ports": [],
@@ -52,46 +7,6 @@
     },
     "ansione.example.com": {
       ":ip": "192.168.32.100",
-      "ports": [],
-      ":memory": 1024
-    },
-  "client.example.com": {
-      ":ip": "192.168.32.110",
-      "ports": [],
-      ":memory": 1024
-    },
-    "server.example.com": {
-      ":ip": "192.168.32.120",
-      "ports": [],
-      ":memory": 1024
-    },
-    "chefinewserver.example.com": {
-      ":ip": "192.168.32.130",
-      "ports": [],
-      ":memory": 2608
-    },
-   "puppetagent.example.com": {
-      ":ip": "192.168.32.140",
-      "ports": [],
-      ":memory": 2608
-    },
-   "linux.example.com": {
-      ":ip": "192.168.32.150",
-      "ports": [],
-      ":memory": 1024
-    },
-   "linuxw.example.com": {
-      ":ip": "192.168.32.151",
-      "ports": [],
-      ":memory": 1024
-    },
-   "linuxc.example.com": {
-      ":ip": "192.168.32.152",
-      "ports": [],
-      ":memory": 1024
-    },
-   "rhel6.example.com": {
-      ":ip": "192.168.32.160",
       "ports": [],
       ":memory": 1024
     }

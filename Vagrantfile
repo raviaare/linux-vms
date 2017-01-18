@@ -10,8 +10,8 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #config.vm.box = "ubuntu/trusty64"
-   config.vm.box = "centos/7" 
-  # config.vm.box = "centos_6_3_x86_64" 
+ #  config.vm.box = "centos/7" 
+   config.vm.box = "centos_6_3_x86_64" 
   nodes_config.each do |node|
     node_name   = node[0] # name of node
     node_values = node[1] # content of node
